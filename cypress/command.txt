@@ -1,0 +1,8 @@
+cy.wrap()
+cy.stub()
+cy.its()
+cy.invoke()
+cy.on()     // for hendling window alert
+.each()
+.select()
+.within()
