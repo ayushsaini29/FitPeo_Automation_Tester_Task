@@ -2,6 +2,7 @@ describe('FitPeo Automation Test', () => {
 
   beforeEach('should navigate through the FitPeo application and perform actions', () => {
   // Step 1: Navigate to FitPeo Homepage
+
   // Step 2: Navigate to the Revenue Calculator Page in different orientations
     cy.visit('https://www.fitpeo.com');
     cy.get('.MuiToolbar-root > :nth-child(2) > .MuiButtonBase-root').click();
